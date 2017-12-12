@@ -14,7 +14,7 @@
 
 * **美化前的样子**
 
-![未美化前]()
+![未美化前](https://github.com/anderc-done/linux/blob/master/image/linux%E7%BB%88%E7%AB%AF%E7%BE%8E%E5%8C%96-%E6%9C%AA%E7%BE%8E%E5%8C%96.jpg?raw=true)
 
 ### xshell美化
 
@@ -50,11 +50,11 @@ chsh -s /bin/zsh
 ```shell
 wget https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - | sh
 ```
-![安装完oh-my-zsh]()
+![安装完oh-my-zsh](https://github.com/anderc-done/linux/blob/master/image/linux%E7%BB%88%E7%AB%AF%E7%BE%8E%E5%8C%96-%E5%AE%89%E8%A3%85%E5%AE%8Coh-my-zsh.jpg?raw=true)
 
 断开与服务器的连接，并重新连接服务器
 
-![重新连接服务器]()
+![重新连接服务器](https://github.com/anderc-done/linux/blob/master/image/linux%E7%BB%88%E7%AB%AF%E7%BE%8E%E5%8C%96-%E5%AE%89%E8%A3%85%E5%AE%8Coh-my-zsh%E9%87%8D%E6%96%B0%E8%BF%9E%E6%8E%A5.jpg?raw=true)
 
 * 配置oh-my-zsh主题
 
@@ -74,7 +74,7 @@ source ~/.zshrc
 
 调整后的效果如下
 
-![powerlevel9k效果]()
+![powerlevel9k效果](https://github.com/anderc-done/linux/blob/master/image/powerlevelk9%E6%95%88%E6%9E%9C.jpg?raw=true)
 
 可以对powerlevel9k进行更进一步的配置，参考github powerlevel9k
 
@@ -82,4 +82,4 @@ source ~/.zshrc
 
 * 最终效果如下
 
-![最终效果]()
+![最终效果](https://github.com/anderc-done/linux/blob/master/image/%E6%9C%80%E7%BB%88%E6%95%88%E6%9E%9C.jpg?raw=true)
