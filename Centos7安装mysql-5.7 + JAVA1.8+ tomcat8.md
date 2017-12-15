@@ -73,11 +73,17 @@ mysql_secure_installation
 mysql -uroot -p
 ```
 > mysql> select version();
+> 
 > +-----------+
+> 
 > | version() |
+> 
 > +-----------+
+> 
 > | 5.7.20    |
+> 
 > +-----------+
+> 
 > 1 row in set (0.00 sec)
 
 ## yum安装jdk
@@ -88,6 +94,12 @@ mysql -uroot -p
 yum -y update
 ```
 * 查找可用的jdk
+
+```shell
+yum list java*
+```
+
+* 安装java1.8
 
 ```shell
 yum -y install java-1.8.0-openjdk*
