@@ -4,7 +4,9 @@
 
 [mysql-5.7下载地址](https://cdn.mysql.com//Downloads/MySQL-5.7/mysql-5.7.20-1.el7.x86_64.rpm-bundle.tar)
 下载 mysql-5.7.20-1.el7.x86_64.rpm-bundle.tar
+
 下载后上传到服务器
+
 或者在终端输入
 
 ```shell
@@ -70,13 +72,13 @@ mysql_secure_installation
 ```shell
 mysql -uroot -p
 ```
->mysql> select version();
-+-----------+
-| version() |
-+-----------+
-| 5.7.20    |
-+-----------+
-1 row in set (0.00 sec)
+> mysql> select version();
+> +-----------+
+> | version() |
+> +-----------+
+> | 5.7.20    |
+> +-----------+
+> 1 row in set (0.00 sec)
 
 ## yum安装jdk
 
@@ -91,7 +93,9 @@ yum -y update
 yum -y install java-1.8.0-openjdk*
 ```
 此时JAVA_HOME的环境变量值是：
+
 JAVA_HOME=/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.151-1.b12.el7_4.x86_64
+
 此变量值后面要用到
 ## 安装apache-tomcat
 * 创建用户组和用户
@@ -103,7 +107,9 @@ useradd -s /bin/bash -g tomcat tomcat
 * 下载apache-tomcat
 
 [apache-tomcat下载](http://mirror.bit.edu.cn/apache/tomcat/tomcat-8/v8.5.24/bin/apache-tomcat-8.5.24.tar.gz)
+
 下载后上传到服务器
+
 或者在终端输入
 
 ```shell
@@ -150,6 +156,7 @@ mv /etc/init.d/catalina.sh /etc/init.d/tomcat
 #description:Tomcat service
 ```
 在下面内容上面插入
+
 > 112 # OS specific support.  $var _must_ be set to either true or false.
 
 ```shell
@@ -173,14 +180,13 @@ chkconfig --add tomcat
 chkconfig --list tomcat
 ```
 > 输出如下
-> 
-```shell
+>>```shell
 tomcat         	0:关	1:关	2:开	3:开	4:开	5:开	6:关
 ```
-* 测试tomcat服务
 
 可以在终端输入`service tomcat`查看tomcat的命令
-启动tomcat服务
+
+* 启动tomcat服务
 
 ```shell
 service tomcat start
@@ -193,6 +199,10 @@ firewall-cmd --reload
 ```
 * 浏览器访问IP地址，可以看到tomcat主页
 
-![Centos7安装mysql-5.7 + JAVA1.8+ tomcat8浏览器访问]()
+![Centos7安装mysql-5.7 + JAVA1.8+ tomcat8浏览器访问](https://github.com/anderc-done/linux/blob/master/image/Centos7%E5%AE%89%E8%A3%85mysql-5.7%20+%20JAVA1.8+%20tomcat8%E6%B5%8F%E8%A7%88%E5%99%A8%E8%AE%BF%E9%97%AE.jpg?raw=true)
+
+```SHELL
+-----------------------The END-----------------------
+```
 
 
