@@ -192,7 +192,8 @@ chkconfig --add tomcat
 chkconfig --list tomcat
 ```
 > 输出如下
->>```shell
+>>
+```shell
 tomcat         	0:关	1:关	2:开	3:开	4:开	5:开	6:关
 ```
 
